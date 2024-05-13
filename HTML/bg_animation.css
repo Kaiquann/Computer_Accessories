@@ -1,0 +1,27 @@
+/* Html And Body */
+html,
+body {
+    background: linear-gradient(-45deg,
+            #f15959,
+            #d447c9,
+            #2370d5,
+            #23d573,
+            #d2d523);
+    background-size: 700% 700%;
+    animation: animate 10s linear infinite;
+}
+
+/* Animation */
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

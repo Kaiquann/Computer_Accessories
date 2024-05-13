@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/ash_navigationbar/navstyles.css" />
+    <link rel="stylesheet" href="/ash_navigationbar/navcomponent.css" />
+    <link rel="stylesheet" href="/ash_navigationbar/navsupport.css" />
+    <link rel="stylesheet" href="/ash_navigationbar/navmediacontrol.css" />
+    <link rel="stylesheet" href="/bg_animation.css" />
+    <link rel="stylesheet" href="ash_contact_us.css" />
+    <script src="ash_contact_us.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navlist">
+                <button class="navbutton">
+                    <img src="/ash_image/navicon.png" alt="" />
+                </button>
+                <div class="navcontent">
+                    <a href="/index.html">Home</a>
+                    <div class="navcomponentlist">
+                        <a class="navcomponentbutton" href="/ash_component/ash_component.html">Component</a>
+                        <div class="navcomponentcontent">
+                            <a href="/ash_peripherals/ash_peripherals.html">Peripherals</a>
+                            <a href="/ash_storage_ram_processor/ash_storage_ram_processor.html">Storage, Ram &
+                                Processor</a>
+                            <a href="/ash_display_audio/ash_display_audio.html">Display & Audio</a>
+                            <a href="/ash_laptop_mobile/ash_laptop_mobile.html">Laptop & Mobile Devices</a>
+                        </div>
+                        <a href="/ash_about_us/ash_about_us.html">About Us</a>
+                        <a href="/ash_e-catalog/ash_e-catalog.html">E-catalog</a>
+                        <a href="/ash_partner/ash_partner.html">Certified Partner</a>
+                        <a href="/ash_event/ash_event.html">Event</a>
+                        <a href="/ash_membership/ash_membership.html">Membership</a>
+                        <div class="navsupportlist">
+                            <a class="navsupportbutton" href="/ash_support/ash_support.html">Support</a>
+                            <div class="navsupportcontent">
+                                <a href="/ash_support/ash_faq.html">FAQ</a>
+                            </div>
+                            <a href="/ash_contact_us/ash_contact_us.html">Contact Us</a>
+                            <a href="/ash_login/ash_login.html">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="smallnav">
+        <nav class="title">
+            <li><a href="/index.html">HOME</a></li>
+            <li>></li>
+            <li><a href="ash_contact_us.html">CONTACT US</a></li>
+        </nav>
+    </div>
+
+    <div class="container">
+        <h1 id="title">CONTACT US</h1>
+        <p>
+            Our team are here to help and we would like to provide the best service
+            to all our customers. Feel free to drop a message in the box below or
+            check out the <a href="/ash_support/ash_faq.html">FAQ section</a> - your
+            answer might be there already!
+        </p>
+        <div class="forms">
+            <form action="mailto:asushi@com.my" method="post" onsubmit="return checkEmail()">
+                <div class="text">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required /><br /><br />
+                    <legend>Message</legend>
+                    <textarea name="message" id="messageBox" placeholder="Ask any question here..."></textarea>
+                </div>
+                <input class="submit" type="submit" value="Submit" />
+            </form>
+        </div>
+
+        <br><br>
+        <div class="general">
+            <h2 id="title2">General Enquiries</h2>
+            <p>
+                <b>Email:</b> <a href="mailto:asushi@com.my">asushii@gmail.com</a>
+            </p>
+            <p>
+                <b>Facebook:</b>
+                <a href="https://www.facebook.com/AsashiTech/">Asushidabest</a>
+            </p>
+            <p><b>Call Us:</b> <a href="tel:0198765432">019-8765432</a></p>
+            <p><b>Address:</b> 21, Jalan JJ, 53200 Setapak, Kuala Lumpur.</p>
+        </div>
+    </div>
+    <footer>
+        ASUSHII COMPUTER ACCESSORIES SHOP &copy; 2022 All Rights Reserved
+    </footer>
+</body>
+
+</html>

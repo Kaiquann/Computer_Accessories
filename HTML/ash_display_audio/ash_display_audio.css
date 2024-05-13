@@ -1,0 +1,122 @@
+html {
+    background: linear-gradient(-45deg,
+            red,
+            rgb(208, 255, 0),
+            rgb(0, 255, 128),
+            rgb(255, 0, 140));
+    background-size: 500% 500%;
+    animation: 6s ease-in infinite animate;
+}
+
+body {
+    background: linear-gradient(45deg, purple, orange, aqua, purple, yellow);
+    background-size: 500% 500%;
+    animation: 5s infinite ease-in animate;
+}
+
+div.pagebody {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Small Navigation */
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+nav li {
+    padding: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 4px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+div.display-audio-lists>h1 {
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    border: 10px royalblue groove;
+    border-radius: 8px;
+}
+
+div.display-audio-lists {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+}
+
+div.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px;
+    margin: 10px;
+}
+
+div.item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 10px groove wheat;
+    border-radius: 10px;
+}
+
+div.item>img {
+    width: 25em;
+    margin-bottom: 10px;
+}
+
+div.item>button {
+    width: 400px;
+    height: 55px;
+    background-color: lightgray;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.item>button>a {
+    text-decoration: none;
+}
+
+div.item>button>a {
+    transition: all 0.5s linear;
+}
+
+div.item>button>a:hover {
+    text-shadow: rgba(0, 0, 0, 0.5) 5px 20px 20px;
+    color: orangered;
+    transform: scale(1.2);
+}

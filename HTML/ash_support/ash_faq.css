@@ -1,0 +1,107 @@
+/* Small Navigation */
+div.smallnav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+nav li {
+    padding: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 4px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+html {
+    background: linear-gradient(-45deg,
+            red,
+            rgb(208, 255, 0),
+            rgb(0, 255, 128),
+            rgb(255, 0, 140),
+            yellow,
+            white);
+    background-size: 500% 500%;
+}
+
+body {
+    background: linear-gradient(45deg, red, orange, aqua, purple, green);
+    background-size: 500% 500%;
+    animation: 5s infinite ease-out animate;
+}
+
+h1 {
+    background: linear-gradient(to right, yellow, lightblue, pink);
+    border: 0.5px black solid;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.faqbody {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 10px;
+    margin: 10px;
+}
+
+p:hover,
+blockquote:hover {
+    transform: scale(1.05);
+}
+
+.faqbody>h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+.faq1>article h2 {
+    display: block;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: yellowgreen;
+}
+
+.faq1>article p,
+blockquote {
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+    font-size: 16px;
+}
+
+div.contactUs>h2>a {
+    text-decoration: none;
+    color: blue;
+}
+
+div.contactUs>h2>a:hover {
+    text-decoration: underline;
+    color: aqua;
+}

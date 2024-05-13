@@ -1,0 +1,6 @@
+/* Mobile Devices */
+@media (max-width: 480px) {
+    footer {
+        font-size: 0.7em;
+    }
+}

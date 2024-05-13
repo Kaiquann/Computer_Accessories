@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+/* Page Body */
+div.aboutbody {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+div.aboutbody>img {
+    width: 16em;
+    height: 6em;
+    border: 2px solid wheat;
+    border-radius: 20px;
+}
+
+div.smallnav {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Small Navigation */
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+nav li {
+    padding: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 4px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+div.image {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+div.aboutbody>h1 {
+    font-size: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+div.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    border: 2px black solid;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    height: 385px;
+    background-color: lightgray;
+}
+
+div.card:hover {
+    cursor: default;
+    color: blue;
+    transform: scale(1.1);
+}
+
+div.paragraphs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 20px;
+    background: linear-gradient(to right, wheat, whitesmoke, aqua);
+    background-size: 300% 300%;
+    animation: 5s animate infinite linear;
+}
+
+div.card>img {
+    width: 80%;
+    height: 50%;
+    border-radius: 50%;
+    border: 12px solid brown;
+}
+
+div.container>h2 {
+    font-size: 20px;
+    padding: 7px 0px;
+    text-align: center;
+}
+
+div.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 10px;
+}
+
+div.container>p {
+    text-align: center;
+}
+
+footer {
+    bottom: 0px;
+    width: 100%;
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+    footer {
+        font-size: 0.7em;
+    }
+}

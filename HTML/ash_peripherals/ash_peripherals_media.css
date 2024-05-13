@@ -1,0 +1,28 @@
+/* Mobile Devices */
+@media (max-width: 480px) {
+    footer {
+        font-size: 0.7em;
+    }
+
+    #toast {
+        visibility: hidden;
+    }
+}
+
+/* Low resolution Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 1000px) {
+    #toast {
+        visibility: hidden;
+    }
+}
+
+/* Tablets Ipads portrait mode */
+@media (min-width: 1000px) and (max-width: 1024px) {
+    div.title>h1 {
+        font-size: 25px;
+    }
+
+    div.item>h4 {
+        font-size: 14px;
+    }
+}

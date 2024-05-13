@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(/ash_image/signupbg.jpg) center center/cover fixed;
+}
+
+body {
+  border: none;
+  box-shadow: none;
+}
+
+div.navbar {
+  background: none;
+}
+
+/* Page Default */
+div.pagebody {
+  padding: 10px;
+  text-align: center;
+}
+
+div.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0px;
+}
+
+div.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  margin: 0px 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: rgba(192, 192, 192, 0.3);
+  border: 15px solid black;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+}
+
+div.title>h1 {
+  color: rgb(55, 74, 179);
+  font-size: 2em;
+  padding: 10px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 0px 0px 0px 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 92%;
+  padding: 15px;
+  margin: 10px;
+  background: rgb(192, 192, 190);
+  border: 3px solid black;
+}
+
+input[placeholder] {
+  color: black;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  font-size: 20px;
+  width: 88%;
+}
+
+input[type="submit"] {
+  background-color: rgb(19, 177, 19);
+}
+
+input[type="reset"] {
+  background-color: rgb(240, 17, 17);
+}
+
+div.signup>input[type="submit"],
+div.signup>input[type="reset"] {
+  text-shadow: rgba(0, 0, 0, 0.5) 1px -1px 1px;
+  transform: scale(1.1, 1.1) translateY(-5px);
+  transition: all 0.2s linear;
+}
+
+div.signup>input[type="submit"]:hover,
+div.signup>input[type="reset"]:hover {
+  color: blue;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 15px 4px;
+  transform: scale(1.1, 1.1) translateY(-5px);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  footer {
+    font-size: 11px;
+  }
+}

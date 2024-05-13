@@ -1,0 +1,26 @@
+/* Mobile Devices */
+@media (max-width: 480px) {
+
+    .navcomponentcontent,
+    .navsupportcontent {
+        display: block;
+    }
+}
+
+/* Low resolution Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 938px) {
+
+    .navcomponentcontent,
+    .navsupportcontent {
+        display: block;
+    }
+}
+
+/* Tablets Ipads portrait mode */
+@media (min-width: 939px) and (max-width: 1024px) {
+
+    .navcomponentcontent,
+    .navsupportcontent {
+        display: block;
+    }
+}

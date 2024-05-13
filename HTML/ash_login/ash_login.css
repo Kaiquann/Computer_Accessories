@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+html,
+body {
+    background: url(/ash_image/loginbg.jpg) center center/cover fixed;
+}
+
+body {
+    box-shadow: none;
+    border: none;
+}
+
+div.navbar {
+    background: none;
+}
+
+/* Page Default */
+div.pagebody {
+    padding: 10px;
+    text-align: center;
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0px;
+}
+
+div.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    margin: 0px 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(192, 192, 192, 0.3);
+    border: 15px solid black;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+}
+
+div.title>h1 {
+    color: blue;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3em;
+    padding: 10px;
+    text-align: center;
+}
+
+div.image>img {
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+label {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 0px 0px 0px 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 92%;
+    padding: 15px;
+    border: 3px solid black;
+    margin: 10px;
+    background: rgba(192, 192, 192, 0.3);
+}
+
+div.login {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 20px;
+    width: 88%;
+}
+
+input[type="submit"] {
+    background-color: rgb(19, 177, 19);
+}
+
+input[type="reset"] {
+    background-color: rgb(240, 17, 17);
+}
+
+div.login>input[type="submit"],
+div.login>input[type="reset"] {
+    text-shadow: rgba(0, 0, 0, 0.5) 1px -1px 1px;
+    transform: scale(1.1, 1.1) translateY(-5px);
+    transition: all 0.2s linear;
+}
+
+div.login>input[type="submit"]:hover,
+div.login>input[type="reset"]:hover {
+    color: blue;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 15px 4px;
+    transform: scale(1.1, 1.1) translateY(-5px);
+}
+
+div.signup>button {
+    background: none;
+    font-size: 20px;
+    color: white;
+    padding: 15px 20px;
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+div.signup>button>a {
+    color: black;
+    text-shadow: rgba(0, 0, 0, 0.5) 1px -1px 1px;
+    transform: scale(1, 1) translateY(0px);
+    transition: all 0.2s linear;
+}
+
+div.signup>button>a:hover {
+    color: blue;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 15px 4px;
+    transform: scale(1.1, 1.1) translateY(-5px);
+}
+
+div.signup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+    footer {
+        font-size: 11px;
+    }
+}

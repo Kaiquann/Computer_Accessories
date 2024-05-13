@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+html,
+body {
+  background: linear-gradient(-45deg,
+      #f15959,
+      #d447c9,
+      #2370d5,
+      #23d573,
+      #d2d523);
+  background-size: 500% 500%;
+  animation: animate 10s linear infinite;
+}
+
+body {
+  background: linear-gradient(-45deg,
+      rgb(0, 255, 213),
+      rgb(255, 102, 0),
+      rgb(255, 2, 221));
+  background-size: 300% 300%;
+  animation: animate 10s linear infinite;
+}
+
+/* Page Default */
+div.pagebody {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Small Navigation */
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+}
+
+nav li {
+  padding: 2px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 4px;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+div.title {
+  padding: 10px;
+}
+
+div.title>h1 {
+  text-align: center;
+  font-family: arial;
+  font-size: 40px;
+  border-radius: 100px;
+  animation: 8s animate linear infinite;
+  background-size: 200% 200%;
+}
+
+div.memberships {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  padding: 10px;
+}
+
+div.membership {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgb(46 16 16 / 90%);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin: 10px;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: linear-gradient(-45deg,
+      rgb(255, 168, 183),
+      rgb(112, 173, 214),
+      rgb(38, 228, 0));
+  background-size: 200% 200%;
+  animation: 8s infinite linear animate;
+}
+
+div.membership:nth-of-type(2) {
+  background: linear-gradient(-45deg,
+      rgb(68, 109, 222),
+      rgb(30, 182, 174),
+      rgb(244, 99, 9));
+  background-size: 200% 200%;
+  animation: 8s infinite linear animate;
+}
+
+div.membership:nth-of-type(3) {
+  background: linear-gradient(-45deg,
+      rgb(216, 7, 7),
+      rgb(80, 82, 199),
+      rgb(225, 0, 255));
+  background-size: 200% 200%;
+  animation: 8s infinite linear animate;
+}
+
+div.membership>p {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+div.membership>h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+}
+
+div.membership>ul {
+  text-align: center;
+  color: rgb(248, 243, 245);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 2em;
+}
+
+div.membership>ul>li {
+  list-style: square;
+  text-align: center;
+}
+
+div.membership>button {
+  background-color: rgb(171, 90, 56);
+  font-size: 20px;
+  padding: 15px 20px;
+  margin: 8px 10px;
+  border: solid black;
+  cursor: pointer;
+  width: 80%;
+  border-radius: 100px;
+}
+
+div.membership>button>a {
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.5) 1px -1px 1px;
+  transform: scale(1, 1) translateY(0px);
+  transition: all 0.2s linear;
+  text-decoration: none;
+}
+
+div.membership>button>a:hover {
+  color: rgb(10, 7, 7);
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 15px 4px;
+  transform: scale(1.1, 1.1) translateY(-5px);
+}
+
