@@ -21,10 +21,6 @@
 
 <body>
 
-<?php
-    $page_title = "Main";
-    echo $page_title;
-    ?>
     <header>
         <div class="logo"><img src="/ash_image/logo.png" alt="Asushii" /></div>
         <div class="navbar">
